@@ -20,10 +20,10 @@
   "scripts": {
     "dev": "nodemon --exec ts-node --files src/main.ts",
     "devtest": "nodemon --exec ts-node --files src/test.ts",
-    "build": "tsc --build .",
+    "build": "tsc --build ../..",
     "test": "jest",
     "test:watch": "jest --watch",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint": "eslint ../.. --ext .js,.jsx,.ts,.tsx --fix"
   },
   "repository": {
     "type": "git",

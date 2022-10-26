@@ -1,6 +1,6 @@
 'use strict';
 
-import { Server } from 'ws';
+import { Server } from 'server/ts/src/lib/ws';
 import logger from './logger'
 
 export default (routing: Record<string, any>, port: number) => {
