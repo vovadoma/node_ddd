@@ -1,2 +1,2 @@
-# NodeJS Prozzoro Tender
+# NodeJS Prozzoro Tender Client
 

@@ -15,10 +15,12 @@ framework со значениями native, fastify и т.д.
 при старте подгружаем нужный и перенаправляем console в него. Можете взять логгер pino.
 
 
+Task #2
+=======
+1.
+
 Global:
 =======
 
-1. WS написать свою реализацию для Node
-2. Свой json:api сериализатор
-3. Query конструктор для PG и json:api
-4. Migration PG реализовать
+1. Query конструктор для PG и json:api
+2. Migration PG реализовать

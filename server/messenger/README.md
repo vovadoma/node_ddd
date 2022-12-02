@@ -1,2 +1,2 @@
-# NodeJS Messenger
+# NodeJS TS Messenger
 
