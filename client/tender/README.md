@@ -1,2 +1,2 @@
-# ECMAScript Prozzoro Tender
+# VueJS Prozzoro Tender
 
