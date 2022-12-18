@@ -2,7 +2,7 @@
 
 module.exports = {
   static: {
-    port: 8000,
+    port: 8080,
   },
   api: {
     port: 8001,

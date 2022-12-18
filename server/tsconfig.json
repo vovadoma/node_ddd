@@ -3,11 +3,11 @@
     "target": "ESNext",
     "moduleResolution": "node",
     "strict": true,
-    "baseUrl": ".",
+    "outDir": "dist",
+    "rootDir": "./",
     "preserveWatchOutput": true,
     "allowJs": true,
     "noEmit": true,
     "skipLibCheck": true
   },
-  "include": ["*.ts"]
 }

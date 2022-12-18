@@ -1,5 +1,7 @@
 'use strict';
 
+import {account, Account} from './apps/accounting/Account'
+
 const fsp = require('node:fs').promises;
 const path = require('node:path');
 const staticServer = require('./lib/static.js');
@@ -31,4 +33,8 @@ const routing = {};
 
   staticServer('./static', config.static.port, logger);
   transport(routing, config.api.port, logger);
+
+  account.do();
+  Account.todoGo();
+
 })();

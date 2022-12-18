@@ -1,6 +1,0 @@
-dist
-logs
-node_modules
-pgdata
-.DS_Store
-.idea
