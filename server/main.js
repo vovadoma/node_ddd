@@ -1,10 +1,11 @@
 'use strict';
 
-import {account, Account} from './apps/accounting/Account'
+//import {account, Account} from './apps/accounting/Account'
 
 const fsp = require('node:fs').promises;
 const path = require('node:path');
 const staticServer = require('./lib/static.js');
+const oauthClient = require('./lib/oauth.js');
 const logger = require('./lib/logger.js');
 const common = require('./lib/common.js');
 const config = require('./config.js');
@@ -32,9 +33,10 @@ const routing = {};
   }
 
   staticServer('./static', config.static.port, logger);
+  oauthClient(8000, logger);
   transport(routing, config.api.port, logger);
 
-  account.do();
-  Account.todoGo();
+  //account.do();
+  //Account.todoGo();
 
 })();
